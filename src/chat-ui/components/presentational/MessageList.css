@@ -1,0 +1,23 @@
+.message-list {
+  padding: 10px;
+  height: 300px;
+  overflow-y: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.message {
+  margin-bottom: 10px;
+  padding: 10px;
+  border-radius: 4px;
+}
+
+.message.user {
+  background: #007bff;
+  color: #fff;
+  text-align: right;
+}
+
+.message.bot {
+  background: #f1f1f1;
+  color: #333;
+}
